@@ -1,7 +1,14 @@
 msp430-cmasmas
 ==============
 
-Programacion de msp430 en c++ con codeblocks, en el proceso de
+#Programacion de msp430 en c++ con codeblocks:
+
+##Descripción:
+*Este repositorio plasma mi proceso de aprendizaje en la programación de los microcontroladores msp430 de Texas Instruments con el entorno de desarrollo Code::Block en C++*
+
+##Instalando y configurando Code::Blocks:
+
+
 
 Will become a heading
 ==============
