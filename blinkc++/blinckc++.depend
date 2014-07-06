@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1305824550 source:/home/turco/msp430/blinkc++/main.cpp
+	"CTimer.h"
+	"CWDTimer.h"
+	"CBasicClockModule.h"
+	"msp430_defs.h"
+
+1305824568 /home/turco/msp430/blinkc++/CTimer.h
+	"msp430_defs.h"
+
+1305824558 /home/turco/msp430/blinkc++/msp430_defs.h
+	<sys/inttypes.h>
+
+1318910387 /usr/msp430/include/sys/inttypes.h
+	<inttypes.h>
+
+1318910387 /usr/msp430/include/inttypes.h
+	<stdint.h>
+
+1318910387 /usr/msp430/include/stdint.h
+
+1305824872 /home/turco/msp430/blinkc++/CWDTimer.h
+	"msp430_defs.h"
+
+1305824576 /home/turco/msp430/blinkc++/CBasicClockModule.h
+	"msp430_defs.h"
+
