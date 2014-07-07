@@ -11,31 +11,29 @@ msp430-cmasmas
 
 ###Instalando y configurando Code::Blocks:
 
-####configuración del tool chain para el msp430:
+configuración del tool chain para el msp430:
 
-####Instalación de paquetes necesarios:
+Instalación de paquetes necesarios:
 
-`` ``
+
 ``sudo apt-get install binutils-msp430 gcc-msp430 gdb-msp430 msp430-libc msp430mcu mspdebug``
-`` ``
+
 ``sudo nano /etc/udev/rules.d/60-tilaunchpad.rules``
-`` ``
+
 Con esto habilitamos el acceso sin necesidad de ser root:
 
-`` ``
+
 ``sudo touch /etc/udev/rules.d/60-tilaunchpad.rules``
-`` ``
+
 
 escribimos lo siguiente:
 
-`` ``
 ``SUBSYSTEM=="usb",ATTR{idVendor}=="0451",ATTR{idProduct =="f432",GROUP="dialout",MODE="666"``
-`` ``
+
 reiniciamos udev:
 
-`` ``
 ``sudo /etc/init.d/udev restart``
-`` ``
+
 
 Es conveniente instalar el codeblocks luego de haber instalado el tool chain de msp430, ya que de esta forma vamos a lograr que este lo reconzca.
 
@@ -94,6 +92,4 @@ En Other options:
 
 Para correr el mspdedebug y que se conecte con el code::blocks el cual está corriendo el msp430-gdb abrimos una consola y ejecutamos lo siguiente:
 
-`` ``
 ``mspdebug rf2500 "gdb"``
-`` ``
